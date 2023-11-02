@@ -3,6 +3,7 @@ import SideBar from './SideBar'
 import MainContainer from './MainContainer'
 
 const Body = () => {
+
     return (
         <>
             <p>Body</p>
