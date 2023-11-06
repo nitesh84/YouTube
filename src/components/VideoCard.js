@@ -13,12 +13,11 @@ const VideoCard = ({ info }) => {
   )
 }
 
-export const HocVideoCard = ({info}) => {
+export const HocVideoCard = ({ info }) => {
   console.log(info)
-  return (<div className='m-4 w-1/5 border border-red-600 shadow shadow-lg transform transition-transform hover:scale-110'>
-      <VideoCard info={info}/>
-      
-  </div>)
+  return (<>
+    <VideoCard info={info} />
+  </>)
 }
 
 export default VideoCard
