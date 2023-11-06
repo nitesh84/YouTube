@@ -38,7 +38,8 @@ const VideoContainer = ({ videoapi }) => {
       if(_includes(item.snippet.title,searchdata)) return item
     })
     console.log("filtered data:", filteredData);
-    if(filteredData.length>0)setVideoData(filteredData)
+    if(filteredData.length>0)setVideoData(filteredData
+      )
   }
   const [params] = useSearchParams();
 
